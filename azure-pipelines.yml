@@ -1,5 +1,5 @@
 # Maven package Java project Web App to Linux on Azure
-- task: Maven@3
+ task: Maven@3
   inputs:
     mavenPomFile: 'app/pom.xml'
     publishJUnitResults: true
@@ -15,7 +15,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- master
+ master
 
 variables:
 
